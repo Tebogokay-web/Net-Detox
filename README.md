@@ -1,4 +1,4 @@
-# Net Detox 🛡️
+# Net Detox 
 
 A professional, modern Windows GUI utility designed to safely reset network configurations, flush DNS, and clear Winsock catalogs to troubleshoot and resolve stubborn internet connectivity issues.
 
@@ -66,7 +66,3 @@ Your finished executable will appear inside the generated `dist/` folder.
 ## License
 
 This project is open-source and available under the terms of the [MIT License](https://www.google.com/search?q=LICENSE).
-
-```
-
-```
