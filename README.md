@@ -13,7 +13,7 @@ A professional, modern Windows GUI utility designed to safely reset network conf
 
 ---
 
-## 📥 How to Download and Use (For End Users)
+## How to Download and Use (For End Users)
 
 If you just want to use the application without looking at the code:
 1. Head over to the **[Releases](../../releases)** page on the right sidebar of this repository.
@@ -22,7 +22,7 @@ If you just want to use the application without looking at the code:
 
 ---
 
-## 🛠️ Building from Source (For Developers)
+## Building from Source (For Developers)
 
 If you want to clone the repository and compile the executable yourself using PyInstaller, follow these steps:
 
