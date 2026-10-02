@@ -30,24 +30,43 @@ If you want to clone the repository and compile the executable yourself using Py
 ```bash
 git clone [https://github.com/TebogoKay-web/net-detox.git](https://github.com/TebogoKay-web/net-detox.git)
 cd net-detox
-2. Install Dependencies
+
+```
+
+### 2. Install Dependencies
+
 Make sure you have Python 3.13 installed, then install PyInstaller:
 
-Bash
+```bash
 python -m pip install pyinstaller
-3. Build the Executable
+
+```
+
+### 3. Build the Executable
+
 Run the following PyInstaller command in your terminal to bundle the script, custom icon, and admin manifest into a single executable:
 
-Bash
+```bash
 python -m PyInstaller --onefile --windowed --uac-admin --icon=net_detox.ico net_detox_gui.py
-Your finished executable will appear inside the generated dist/ folder.
 
-Project Structure
-net_detox_gui.py: The main Python source code file containing the Tkinter interface and network reset logic.
+```
 
-net_detox.ico: Custom application icon asset.
+Your finished executable will appear inside the generated `dist/` folder.
 
-.gitignore: Configured to ignore local build artifacts and environment caches.
+---
 
-License
-This project is open-source and available under the terms of the MIT License.
+## Project Structure
+
+* `net_detox_gui.py`: The main Python source code file containing the Tkinter interface and network reset logic.
+* `net_detox.ico`: Custom application icon asset.
+* `.gitignore`: Configured to ignore local build artifacts and environment caches.
+
+---
+
+## License
+
+This project is open-source and available under the terms of the [MIT License](https://www.google.com/search?q=LICENSE).
+
+```
+
+```
